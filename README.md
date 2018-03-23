@@ -17,3 +17,11 @@ Connection Info :-----------------------------------------------
 4) Update tools to latest version
 5) EXIT PROGRAM
 #? 
+
+Ak Fluge On Facebook
+https://facebook.com/akfluge.py
+Odin Loy On Github & Facebook
+https://github.com/OdinF13
+https://www.facebook.com/FSOYT
+
+Donation 
