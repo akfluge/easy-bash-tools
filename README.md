@@ -1,6 +1,9 @@
 # ./hnews.sh
 
 # Short Hacking News |Information Gathering System|
-# Command: git clone 
+# git clone https://github.com/akfluge/easy-bash-tools.git
+# cd easy-bash-tools
+# chmod +x hnews.sh
+# ./hnews.sh
 
-Bitcoin Donation: 3HGkd1JZFfs3uxUppNm6uyoMoZKP9FRzyk 
+simple simple simple
