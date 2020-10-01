@@ -31,13 +31,18 @@ if [ $choice -eq 1 ] ; then
         keyword="title" # search content keyword
 
 
-if (curl -s "https://news.ycombinator.com/" | grep "$keyword" | sed 's/<\/*[^>]*>//g') #hacking news
+touch news.txt
+curl -Ss "https://news.ycombinator.com/" | grep "$keyword" > news.txt
+chkcode=$?
+if [[ chkcode -eq 0 ]] #hacking news
 
 then
+        cat news.txt | sed 's/<\/*[^>]*>//g'
         echo "Success!"
 else
         echo "Error!"
     fi
+rm news.txt
 
 else                   
 
